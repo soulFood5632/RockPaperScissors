@@ -14,6 +14,14 @@
 		02C14024297511300038FD8E /* RockPaperScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C14023297511300038FD8E /* RockPaperScissorsTests.swift */; };
 		02C1402E297511300038FD8E /* RockPaperScissorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1402D297511300038FD8E /* RockPaperScissorsUITests.swift */; };
 		02C14030297511300038FD8E /* RockPaperScissorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1402F297511300038FD8E /* RockPaperScissorsUITestsLaunchTests.swift */; };
+		02C1403E297511860038FD8E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1403D297511860038FD8E /* Player.swift */; };
+		02C1404029751BF10038FD8E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1403F29751BF10038FD8E /* GameView.swift */; };
+		02C1404229751C430038FD8E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1404129751C430038FD8E /* SettingsView.swift */; };
+		02C140442976352D0038FD8E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C140432976352D0038FD8E /* Game.swift */; };
+		02C14046297639290038FD8E /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C14045297639290038FD8E /* Board.swift */; };
+		02C1404829763A170038FD8E /* Obstacle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1404729763A170038FD8E /* Obstacle.swift */; };
+		02C1404A29763B020038FD8E /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1404929763B020038FD8E /* Position.swift */; };
+		02C1404E297642A00038FD8E /* MapElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C1404D297642A00038FD8E /* MapElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,14 @@
 		02C14029297511300038FD8E /* RockPaperScissorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C1402D297511300038FD8E /* RockPaperScissorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsUITests.swift; sourceTree = "<group>"; };
 		02C1402F297511300038FD8E /* RockPaperScissorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02C1403D297511860038FD8E /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		02C1403F29751BF10038FD8E /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		02C1404129751C430038FD8E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		02C140432976352D0038FD8E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		02C14045297639290038FD8E /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		02C1404729763A170038FD8E /* Obstacle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Obstacle.swift; sourceTree = "<group>"; };
+		02C1404929763B020038FD8E /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		02C1404D297642A00038FD8E /* MapElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +113,9 @@
 			children = (
 				02C140112975112F0038FD8E /* RockPaperScissorsApp.swift */,
 				02C140132975112F0038FD8E /* ContentView.swift */,
+				02C1404129751C430038FD8E /* SettingsView.swift */,
+				02C1403F29751BF10038FD8E /* GameView.swift */,
+				02C1403C2975116D0038FD8E /* Models */,
 				02C14015297511300038FD8E /* Assets.xcassets */,
 				02C1401A297511300038FD8E /* RockPaperScissors.entitlements */,
 				02C14017297511300038FD8E /* Preview Content */,
@@ -127,6 +146,19 @@
 				02C1402F297511300038FD8E /* RockPaperScissorsUITestsLaunchTests.swift */,
 			);
 			path = RockPaperScissorsUITests;
+			sourceTree = "<group>";
+		};
+		02C1403C2975116D0038FD8E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				02C1403D297511860038FD8E /* Player.swift */,
+				02C140432976352D0038FD8E /* Game.swift */,
+				02C1404729763A170038FD8E /* Obstacle.swift */,
+				02C14045297639290038FD8E /* Board.swift */,
+				02C1404929763B020038FD8E /* Position.swift */,
+				02C1404D297642A00038FD8E /* MapElement.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +291,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C1404229751C430038FD8E /* SettingsView.swift in Sources */,
+				02C140442976352D0038FD8E /* Game.swift in Sources */,
 				02C140142975112F0038FD8E /* ContentView.swift in Sources */,
+				02C1404E297642A00038FD8E /* MapElement.swift in Sources */,
+				02C1403E297511860038FD8E /* Player.swift in Sources */,
+				02C14046297639290038FD8E /* Board.swift in Sources */,
+				02C1404029751BF10038FD8E /* GameView.swift in Sources */,
+				02C1404829763A170038FD8E /* Obstacle.swift in Sources */,
 				02C140122975112F0038FD8E /* RockPaperScissorsApp.swift in Sources */,
+				02C1404A29763B020038FD8E /* Position.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,8 +470,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = LoganPersonalProjects.RockPaperScissors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -455,8 +499,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = LoganPersonalProjects.RockPaperScissors;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
